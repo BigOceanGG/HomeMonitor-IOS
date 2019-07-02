@@ -6,15 +6,15 @@
 //  Copyright © 2019 zhj. All rights reserved.
 //
 
-#import "loginViewController.h"
+#import "LoginViewController.h"
 #import "CellAlertViewController.h"
 
-@interface loginViewController ()
+@interface LoginViewController ()
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *logoPos;
 
 @end
 
-@implementation loginViewController
+@implementation LoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

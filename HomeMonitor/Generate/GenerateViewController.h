@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface generateViewController : UIViewController
+@interface GenerateViewController : UIViewController
 @property (weak, nonatomic) IBOutlet CellButton *createUser;
 @property (weak, nonatomic) IBOutlet CellButton *loginUser;
 

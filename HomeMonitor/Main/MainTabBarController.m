@@ -6,14 +6,14 @@
 //  Copyright © 2019 zhj. All rights reserved.
 //
 
-#import "mainTabBarController.h"
+#import "MainTabBarController.h"
 #import "CellColor.h"
 
-@interface mainTabBarController ()
+@interface MainTabBarController ()
 
 @end
 
-@implementation mainTabBarController
+@implementation MainTabBarController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

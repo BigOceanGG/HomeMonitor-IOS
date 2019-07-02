@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface scenePageViewController : UIPageViewController
+@interface ScenePageViewController : UIPageViewController
 
 @end
 

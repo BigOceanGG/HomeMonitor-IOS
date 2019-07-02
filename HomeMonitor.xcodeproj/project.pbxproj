@@ -15,7 +15,7 @@
 		DD5E231122CAF2E3005096A3 /* SceneHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E230B22CAF2E3005096A3 /* SceneHeadView.m */; };
 		DD5E231222CAF2E3005096A3 /* SceneHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD5E230C22CAF2E3005096A3 /* SceneHeadView.xib */; };
 		DD5E231322CAF2E3005096A3 /* ScenePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E230F22CAF2E3005096A3 /* ScenePageViewController.m */; };
-		DD5E231422CAF2E3005096A3 /* scene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5E231022CAF2E3005096A3 /* scene.storyboard */; };
+		DD5E231422CAF2E3005096A3 /* Scene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5E231022CAF2E3005096A3 /* Scene.storyboard */; };
 		DD5E231922CAF30E005096A3 /* Generate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5E231622CAF30E005096A3 /* Generate.storyboard */; };
 		DD5E231A22CAF30E005096A3 /* GenerateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E231822CAF30E005096A3 /* GenerateViewController.m */; };
 		DD5E231F22CAF334005096A3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E231C22CAF334005096A3 /* LoginViewController.m */; };
@@ -53,7 +53,7 @@
 		DD5E230D22CAF2E3005096A3 /* ScenePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenePageViewController.h; sourceTree = "<group>"; };
 		DD5E230E22CAF2E3005096A3 /* SceneHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneHeadView.h; sourceTree = "<group>"; };
 		DD5E230F22CAF2E3005096A3 /* ScenePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenePageViewController.m; sourceTree = "<group>"; };
-		DD5E231022CAF2E3005096A3 /* scene.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = scene.storyboard; sourceTree = "<group>"; };
+		DD5E231022CAF2E3005096A3 /* Scene.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Scene.storyboard; sourceTree = "<group>"; };
 		DD5E231622CAF30E005096A3 /* Generate.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Generate.storyboard; sourceTree = "<group>"; };
 		DD5E231722CAF30E005096A3 /* GenerateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenerateViewController.h; sourceTree = "<group>"; };
 		DD5E231822CAF30E005096A3 /* GenerateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenerateViewController.m; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				DD5E230A22CAF2E3005096A3 /* SceneHead */,
-				DD5E231022CAF2E3005096A3 /* scene.storyboard */,
+				DD5E231022CAF2E3005096A3 /* Scene.storyboard */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 			isa = PBXGroup;
 			children = (
 				DD5E230B22CAF2E3005096A3 /* SceneHeadView.m */,
+				DD5E230E22CAF2E3005096A3 /* SceneHeadView.h */,
 				DD5E230C22CAF2E3005096A3 /* SceneHeadView.xib */,
 				DD5E230D22CAF2E3005096A3 /* ScenePageViewController.h */,
-				DD5E230E22CAF2E3005096A3 /* SceneHeadView.h */,
 				DD5E230F22CAF2E3005096A3 /* ScenePageViewController.m */,
 			);
 			path = SceneHead;
@@ -150,8 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				DD5E231C22CAF334005096A3 /* LoginViewController.m */,
-				DD5E231D22CAF334005096A3 /* Login.storyboard */,
 				DD5E231E22CAF334005096A3 /* LoginViewController.h */,
+				DD5E231D22CAF334005096A3 /* Login.storyboard */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -160,8 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				DD5E232222CAF349005096A3 /* MainTabBarController.m */,
-				DD5E232322CAF349005096A3 /* Main.storyboard */,
 				DD5E232522CAF349005096A3 /* MainTabBarController.h */,
+				DD5E232322CAF349005096A3 /* Main.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -170,9 +170,9 @@
 			isa = PBXGroup;
 			children = (
 				DD5E232922CAF360005096A3 /* BackViewController.m */,
+				DD5E232C22CAF360005096A3 /* BackViewController.h */,
 				DD5E232A22CAF360005096A3 /* Setting.storyboard */,
 				DD5E232B22CAF360005096A3 /* SettingViewController.h */,
-				DD5E232C22CAF360005096A3 /* BackViewController.h */,
 				DD5E232D22CAF360005096A3 /* SettingViewController.m */,
 			);
 			path = Setting;
@@ -376,7 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDC1EA2122C349E9002F1D6B /* LaunchScreen.storyboard in Resources */,
-				DD5E231422CAF2E3005096A3 /* scene.storyboard in Resources */,
+				DD5E231422CAF2E3005096A3 /* Scene.storyboard in Resources */,
 				DD5E231222CAF2E3005096A3 /* SceneHeadView.xib in Resources */,
 				DD5E231922CAF30E005096A3 /* Generate.storyboard in Resources */,
 				DD5E230722CAF2AE005096A3 /* AccountTableViewCell.xib in Resources */,

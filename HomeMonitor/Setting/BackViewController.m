@@ -8,11 +8,11 @@
 
 #import "BackViewController.h"
 
-@interface backViewController ()
+@interface BackViewController ()
 
 @end
 
-@implementation backViewController
+@implementation BackViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

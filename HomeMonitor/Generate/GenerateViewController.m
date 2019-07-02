@@ -6,13 +6,13 @@
 //  Copyright © 2019 zhj. All rights reserved.
 //
 
-#import "generateViewController.h"
+#import "GenerateViewController.h"
 
-@interface generateViewController ()
+@interface GenerateViewController ()
 
 @end
 
-@implementation generateViewController
+@implementation GenerateViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

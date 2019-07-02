@@ -6,10 +6,10 @@
 //  Copyright © 2019 zhj. All rights reserved.
 //
 
-#import "sceneHeadView.h"
+#import "SceneHeadView.h"
 #import "CellColor.h"
 
-@implementation sceneHeadView
+@implementation SceneHeadView
 
 /*
 // Only override drawRect: if you perform custom drawing.

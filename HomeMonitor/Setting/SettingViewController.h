@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface settingViewController : UIViewController
+@interface SettingViewController : UIViewController
 
 @end
 

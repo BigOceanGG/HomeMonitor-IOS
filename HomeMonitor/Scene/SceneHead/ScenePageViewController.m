@@ -6,13 +6,13 @@
 //  Copyright © 2019 zhj. All rights reserved.
 //
 
-#import "scenePageViewController.h"
-#import "sceneHeadView.h"
-#import "accountTableViewController.h"
+#import "ScenePageViewController.h"
+#import "SceneHeadView.h"
+#import "AccountTableViewController.h"
 
-@interface scenePageViewController () <UIPageViewControllerDataSource, UIPageViewControllerDelegate>
+@interface ScenePageViewController () <UIPageViewControllerDataSource, UIPageViewControllerDelegate>
 
-@property (nonatomic, strong) sceneHeadView *headView;
+@property (nonatomic, strong) SceneHeadView *headView;
 
 @property (nonatomic, strong) NSArray *childVCArray;
 
@@ -20,7 +20,7 @@
 
 @end
 
-@implementation scenePageViewController
+@implementation ScenePageViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -39,7 +39,7 @@
 */
 
 - (void)initView {
-    self.headView = [[sceneHeadView alloc] initWithSelectedBlock:^(NSInteger oldIndex, NSInteger newIndex) {
+    self.headView = [[SceneHeadView alloc] initWithSelectedBlock:^(NSInteger oldIndex, NSInteger newIndex) {
         if (newIndex >= 0 && newIndex < self.childVCArray.count) {
             self.view.userInteractionEnabled = NO;
             [self setViewControllers:@[self.childVCArray[newIndex]]
