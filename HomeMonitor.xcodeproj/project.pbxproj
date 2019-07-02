@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DD5E22E622CAE4F6005096A3 /* CellAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E22E522CAE4F6005096A3 /* CellAlertViewController.m */; };
 		DD5E22EA22CAE703005096A3 /* CellAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD5E22E922CAE703005096A3 /* CellAlertViewController.xib */; };
-		DD5E230622CAF2AE005096A3 /* AccountTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E230222CAF2AE005096A3 /* AccountTableViewCell.m */; };
+		DD5E230622CAF2AE005096A3 /* AccountTableViewCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E230222CAF2AE005096A3 /* AccountTableViewCell1.m */; };
 		DD5E230722CAF2AE005096A3 /* AccountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD5E230322CAF2AE005096A3 /* AccountTableViewCell.xib */; };
 		DD5E230822CAF2AE005096A3 /* AccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E230522CAF2AE005096A3 /* AccountTableViewController.m */; };
 		DD5E231122CAF2E3005096A3 /* SceneHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E230B22CAF2E3005096A3 /* SceneHeadView.m */; };
@@ -44,7 +44,7 @@
 		DD5E22E522CAE4F6005096A3 /* CellAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellAlertViewController.m; sourceTree = "<group>"; };
 		DD5E22E922CAE703005096A3 /* CellAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellAlertViewController.xib; sourceTree = "<group>"; };
 		DD5E230122CAF2AE005096A3 /* AccountTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTableViewController.h; sourceTree = "<group>"; };
-		DD5E230222CAF2AE005096A3 /* AccountTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTableViewCell.m; sourceTree = "<group>"; };
+		DD5E230222CAF2AE005096A3 /* AccountTableViewCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTableViewCell1.m; sourceTree = "<group>"; };
 		DD5E230322CAF2AE005096A3 /* AccountTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountTableViewCell.xib; sourceTree = "<group>"; };
 		DD5E230422CAF2AE005096A3 /* AccountTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTableViewCell.h; sourceTree = "<group>"; };
 		DD5E230522CAF2AE005096A3 /* AccountTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTableViewController.m; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				DD5E230122CAF2AE005096A3 /* AccountTableViewController.h */,
-				DD5E230222CAF2AE005096A3 /* AccountTableViewCell.m */,
+				DD5E230222CAF2AE005096A3 /* AccountTableViewCell1.m */,
 				DD5E230322CAF2AE005096A3 /* AccountTableViewCell.xib */,
 				DD5E230422CAF2AE005096A3 /* AccountTableViewCell.h */,
 				DD5E230522CAF2AE005096A3 /* AccountTableViewController.m */,
@@ -410,7 +410,7 @@
 				DDC1EA4422C357CC002F1D6B /* CellColor.m in Sources */,
 				DDC1EA4022C3568A002F1D6B /* CellButton.m in Sources */,
 				DDC1EA5922C45AA1002F1D6B /* CellTextField.m in Sources */,
-				DD5E230622CAF2AE005096A3 /* AccountTableViewCell.m in Sources */,
+				DD5E230622CAF2AE005096A3 /* AccountTableViewCell1.m in Sources */,
 				DD5E231A22CAF30E005096A3 /* GenerateViewController.m in Sources */,
 				DD5E231322CAF2E3005096A3 /* ScenePageViewController.m in Sources */,
 				DD5E232E22CAF360005096A3 /* BackViewController.m in Sources */,
