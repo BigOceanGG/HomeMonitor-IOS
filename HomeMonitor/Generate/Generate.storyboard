@@ -67,10 +67,10 @@
             </objects>
             <point key="canvasLocation" x="-381" y="-46"/>
         </scene>
-        <!--login-->
+        <!--Login-->
         <scene sceneID="LZ5-2g-UhQ">
             <objects>
-                <viewControllerPlaceholder storyboardName="login" id="L1c-ng-eYo" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Login" id="L1c-ng-eYo" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XDU-Gi-p7W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="202" y="-111"/>

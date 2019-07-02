@@ -12,7 +12,7 @@
         <!--Main Tab Bar Controller-->
         <scene sceneID="DIo-n1-tJs">
             <objects>
-                <tabBarController id="aDd-fb-zRd" customClass="mainTabBarController" sceneMemberID="viewController">
+                <tabBarController id="aDd-fb-zRd" customClass="MainTabBarController" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uW1-pr-Yeb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -27,20 +27,20 @@
             </objects>
             <point key="canvasLocation" x="-1518" y="-415"/>
         </scene>
-        <!--scene-->
+        <!--Scene-->
         <scene sceneID="Bbl-gh-jIa">
             <objects>
-                <viewControllerPlaceholder storyboardName="scene" id="EqO-9g-6WJ" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Scene" id="EqO-9g-6WJ" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="BJ7-WA-rCJ"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MpS-4n-1U0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1913" y="38"/>
         </scene>
-        <!--setting-->
+        <!--Setting-->
         <scene sceneID="bzB-hz-eWT">
             <objects>
-                <viewControllerPlaceholder storyboardName="setting" id="LWB-Bv-eZ9" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Setting" id="LWB-Bv-eZ9" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="2dJ-gv-5bW"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xsu-8Z-GxH" userLabel="First Responder" sceneMemberID="firstResponder"/>

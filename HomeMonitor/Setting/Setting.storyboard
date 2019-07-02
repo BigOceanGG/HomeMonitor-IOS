@@ -31,7 +31,7 @@
         <!--Setting View Controller-->
         <scene sceneID="ALM-b6-16P">
             <objects>
-                <viewController id="gfI-OD-4dh" customClass="settingViewController" sceneMemberID="viewController">
+                <viewController id="gfI-OD-4dh" customClass="SettingViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v9c-Uh-zRw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -67,7 +67,7 @@
         <!--Back View Controller-->
         <scene sceneID="NHT-KI-nhe">
             <objects>
-                <viewController id="VzG-yu-slX" customClass="backViewController" sceneMemberID="viewController">
+                <viewController id="VzG-yu-slX" customClass="BackViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PB9-mq-dgi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
