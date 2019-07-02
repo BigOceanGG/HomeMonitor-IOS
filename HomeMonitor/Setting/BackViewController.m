@@ -6,7 +6,7 @@
 //  Copyright © 2019 zhj. All rights reserved.
 //
 
-#import "backViewController.h"
+#import "BackViewController.h"
 
 @interface backViewController ()
 
