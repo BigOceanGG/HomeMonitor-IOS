@@ -20,7 +20,7 @@
 */
 
 - (instancetype)initWithSelectedBlock:(void (^)(NSInteger, NSInteger))selectedBlock {
-    self = [[[UINib nibWithNibName:@"sceneHeadView" bundle:nil] instantiateWithOwner:nil options:nil] firstObject];
+    self = [[[UINib nibWithNibName:@"SceneHeadView" bundle:nil] instantiateWithOwner:nil options:nil] firstObject];
     self.selectedBlock = selectedBlock;
     [self.btn1 setTitle:NSLocalizedString(@"nav.title.summer", nil) forState:UIControlStateNormal];
     [self.btn2 setTitle:NSLocalizedString(@"nav.title.winter", nil) forState:UIControlStateNormal];

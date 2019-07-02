@@ -13,7 +13,7 @@
         <!--Generate View Controller-->
         <scene sceneID="Hu9-XR-67b">
             <objects>
-                <viewController id="bxh-M7-Br5" customClass="generateViewController" sceneMemberID="viewController">
+                <viewController id="bxh-M7-Br5" customClass="GenerateViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wzV-Sh-0ek">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -38,7 +38,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="secondTheme" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="L1c-ng-eYo" kind="show" id="PLI-jW-8f7"/>
+                                    <segue destination="3O0-0a-pTA" kind="show" id="05B-Mv-3aO"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome" translatesAutoresizingMaskIntoConstraints="NO" id="s6P-Tw-3bg">
@@ -68,12 +68,12 @@
             <point key="canvasLocation" x="-381" y="-46"/>
         </scene>
         <!--Login-->
-        <scene sceneID="LZ5-2g-UhQ">
+        <scene sceneID="LWq-W8-5er">
             <objects>
-                <viewControllerPlaceholder storyboardName="Login" id="L1c-ng-eYo" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XDU-Gi-p7W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Login" id="3O0-0a-pTA" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kx7-pD-wrR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="202" y="-111"/>
+            <point key="canvasLocation" x="377" y="44"/>
         </scene>
     </scenes>
     <resources>
