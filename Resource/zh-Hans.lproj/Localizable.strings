@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  HomeMonitor
+
+  Created by zhj on 2019/6/26.
+  Copyright © 2019 zhj. All rights reserved.
+*/
+"generate_createuser" = "创建用户";
+"generate_login" = "用户登陆";
+"input_password" = "输入密码";
+
+"tabbar_name_0" = "场景";
+"tabbar_name_1" = "设置";
+
+"nav.title.summer" = "夏天";
+"nav.title.winter" = "冬天";
+
+"cell.cancel" = "取消";
+"cell.confirm" = "确定";
+"cell.warning" = "警告";
+

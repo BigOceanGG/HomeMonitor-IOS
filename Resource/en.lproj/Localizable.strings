@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  HomeMonitor
+
+  Created by zhj on 2019/6/26.
+  Copyright © 2019 zhj. All rights reserved.
+*/
+"generate_createuser" = "create user";
+"generate_login" = "user login";
+"input_password" = "input password";
+
+"tabbar_name_0" = "scene";
+"tabbar_name_1" = "setting";
+
+"nav.title.summer" = "summer";
+"nav.title.winter" = "winter";
+
+"cell.cancel" = "cancel";
+"cell.confirm" = "ok";
+"cell.warning" = "warning";
+

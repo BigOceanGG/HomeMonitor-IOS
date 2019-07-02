@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bxh-M7-Br5">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Generate View Controller-->
+        <scene sceneID="Hu9-XR-67b">
+            <objects>
+                <viewController id="bxh-M7-Br5" customClass="generateViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wzV-Sh-0ek">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HFO-Su-utp" userLabel="userCreate" customClass="CellButton">
+                                <rect key="frame" x="24" y="752" width="366" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="ALQ-b6-ui0"/>
+                                </constraints>
+                                <state key="normal" title="创建用户"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="secondTheme" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YtJ-MT-ifL" userLabel="userLogin" customClass="CellButton">
+                                <rect key="frame" x="24" y="824" width="366" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="5vo-6v-2H7"/>
+                                </constraints>
+                                <state key="normal" title="用户登陆"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="secondTheme" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="L1c-ng-eYo" kind="show" id="PLI-jW-8f7"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome" translatesAutoresizingMaskIntoConstraints="NO" id="s6P-Tw-3bg">
+                                <rect key="frame" x="87" y="328" width="240" height="240"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HFO-Su-utp" firstAttribute="leading" secondItem="6fV-4i-jF7" secondAttribute="leading" constant="24" id="Dtm-Nx-vsX"/>
+                            <constraint firstItem="YtJ-MT-ifL" firstAttribute="leading" secondItem="6fV-4i-jF7" secondAttribute="leading" constant="24" id="HD3-3o-UvM"/>
+                            <constraint firstItem="YtJ-MT-ifL" firstAttribute="top" secondItem="HFO-Su-utp" secondAttribute="bottom" constant="24" id="Tjn-mD-ljT"/>
+                            <constraint firstItem="6fV-4i-jF7" firstAttribute="trailing" secondItem="YtJ-MT-ifL" secondAttribute="trailing" constant="24" id="cII-rU-pcT"/>
+                            <constraint firstItem="6fV-4i-jF7" firstAttribute="trailing" secondItem="HFO-Su-utp" secondAttribute="trailing" constant="24" id="pI0-bi-hj4"/>
+                            <constraint firstItem="s6P-Tw-3bg" firstAttribute="centerY" secondItem="wzV-Sh-0ek" secondAttribute="centerY" id="sUI-0s-muv"/>
+                            <constraint firstAttribute="bottom" secondItem="YtJ-MT-ifL" secondAttribute="bottom" constant="24" id="v8g-8D-lBD"/>
+                            <constraint firstItem="s6P-Tw-3bg" firstAttribute="centerX" secondItem="wzV-Sh-0ek" secondAttribute="centerX" id="vAt-G8-p8G"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6fV-4i-jF7"/>
+                    </view>
+                    <connections>
+                        <outlet property="createUser" destination="HFO-Su-utp" id="l9b-Sk-Q3H"/>
+                        <outlet property="loginUser" destination="YtJ-MT-ifL" id="5Tz-E1-m1R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fcg-Fx-I5r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-381" y="-46"/>
+        </scene>
+        <!--login-->
+        <scene sceneID="LZ5-2g-UhQ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="login" id="L1c-ng-eYo" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XDU-Gi-p7W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="202" y="-111"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="welcome" width="240" height="240"/>
+    </resources>
+</document>
