@@ -46,7 +46,7 @@
 		DD5E230122CAF2AE005096A3 /* AccountTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTableViewController.h; sourceTree = "<group>"; };
 		DD5E230222CAF2AE005096A3 /* AccountTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTableViewCell.m; sourceTree = "<group>"; };
 		DD5E230322CAF2AE005096A3 /* AccountTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountTableViewCell.xib; sourceTree = "<group>"; };
-		DD5E230422CAF2AE005096A3 /* AccountTableViewCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTableViewCell1.h; sourceTree = "<group>"; };
+		DD5E230422CAF2AE005096A3 /* AccountTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTableViewCell.h; sourceTree = "<group>"; };
 		DD5E230522CAF2AE005096A3 /* AccountTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTableViewController.m; sourceTree = "<group>"; };
 		DD5E230B22CAF2E3005096A3 /* SceneHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneHeadView.m; sourceTree = "<group>"; };
 		DD5E230C22CAF2E3005096A3 /* SceneHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SceneHeadView.xib; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 				DD5E230122CAF2AE005096A3 /* AccountTableViewController.h */,
 				DD5E230222CAF2AE005096A3 /* AccountTableViewCell.m */,
 				DD5E230322CAF2AE005096A3 /* AccountTableViewCell.xib */,
-				DD5E230422CAF2AE005096A3 /* AccountTableViewCell1.h */,
+				DD5E230422CAF2AE005096A3 /* AccountTableViewCell.h */,
 				DD5E230522CAF2AE005096A3 /* AccountTableViewController.m */,
 			);
 			path = Account;
