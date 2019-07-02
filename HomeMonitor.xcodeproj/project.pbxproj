@@ -166,7 +166,7 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		DD5E232822CAF360005096A3 /* setting */ = {
+		DD5E232822CAF360005096A3 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
 				DD5E232922CAF360005096A3 /* BackViewController.m */,
@@ -175,7 +175,7 @@
 				DD5E232C22CAF360005096A3 /* BackViewController.h */,
 				DD5E232D22CAF360005096A3 /* SettingViewController.m */,
 			);
-			path = setting;
+			path = Setting;
 			sourceTree = "<group>";
 		};
 		DDC1EA0522C349E8002F1D6B = {
@@ -198,7 +198,7 @@
 		DDC1EA1022C349E9002F1D6B /* HomeMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				DD5E232822CAF360005096A3 /* setting */,
+				DD5E232822CAF360005096A3 /* Setting */,
 				DD5E232122CAF349005096A3 /* Main */,
 				DD5E231B22CAF334005096A3 /* Login */,
 				DD5E231522CAF30E005096A3 /* Generate */,
