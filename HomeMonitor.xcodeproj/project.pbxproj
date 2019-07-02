@@ -118,13 +118,13 @@
 		DD5E230922CAF2E3005096A3 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
-				DD5E230A22CAF2E3005096A3 /* sceneHead */,
+				DD5E230A22CAF2E3005096A3 /* SceneHead */,
 				DD5E231022CAF2E3005096A3 /* scene.storyboard */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
 		};
-		DD5E230A22CAF2E3005096A3 /* sceneHead */ = {
+		DD5E230A22CAF2E3005096A3 /* SceneHead */ = {
 			isa = PBXGroup;
 			children = (
 				DD5E230B22CAF2E3005096A3 /* SceneHeadView.m */,
@@ -133,7 +133,7 @@
 				DD5E230E22CAF2E3005096A3 /* SceneHeadView.h */,
 				DD5E230F22CAF2E3005096A3 /* ScenePageViewController.m */,
 			);
-			path = sceneHead;
+			path = SceneHead;
 			sourceTree = "<group>";
 		};
 		DD5E231522CAF30E005096A3 /* Generate */ = {
