@@ -115,13 +115,13 @@
 			path = Account;
 			sourceTree = "<group>";
 		};
-		DD5E230922CAF2E3005096A3 /* scene */ = {
+		DD5E230922CAF2E3005096A3 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
 				DD5E230A22CAF2E3005096A3 /* sceneHead */,
 				DD5E231022CAF2E3005096A3 /* scene.storyboard */,
 			);
-			path = scene;
+			path = Scene;
 			sourceTree = "<group>";
 		};
 		DD5E230A22CAF2E3005096A3 /* sceneHead */ = {
@@ -202,7 +202,7 @@
 				DD5E232122CAF349005096A3 /* Main */,
 				DD5E231B22CAF334005096A3 /* Login */,
 				DD5E231522CAF30E005096A3 /* Generate */,
-				DD5E230922CAF2E3005096A3 /* scene */,
+				DD5E230922CAF2E3005096A3 /* Scene */,
 				DD5E230022CAF2AE005096A3 /* Account */,
 				DDC1EA5B22C4987E002F1D6B /* LaunchScreen */,
 				DDC1EA4522C358B0002F1D6B /* Extension */,
