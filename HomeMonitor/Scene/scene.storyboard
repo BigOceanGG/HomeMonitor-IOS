@@ -30,7 +30,7 @@
         <!--Scene Page View Controller-->
         <scene sceneID="rTp-Xq-cP1">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="UIq-AU-1Hm" customClass="scenePageViewController" sceneMemberID="viewController">
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="UIq-AU-1Hm" customClass="ScenePageViewController" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="yLJ-V5-YkN"/>
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OUf-XV-fuO" userLabel="First Responder" sceneMemberID="firstResponder"/>
