@@ -19,3 +19,5 @@
 "cell.confirm" = "ok";
 "cell.warning" = "warning";
 
+"cell.title" = "title";
+

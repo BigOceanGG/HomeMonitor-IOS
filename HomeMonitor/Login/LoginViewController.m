@@ -36,9 +36,9 @@
         [self performSegueWithIdentifier:@"changeMain" sender:self];
     } else {
         CellAlertViewController *vc = [[CellAlertViewController alloc] initWithTitle:NSLocalizedString(@"cell.warning", nil) secondTitle:@"" contentView:^(UIStackView * _Nonnull view) {
-            
+
         } cancelTitle:NSLocalizedString(@"cell.cancel", nil) confirmTitle:NSLocalizedString(@"cell.confirm", nil) cancel:^{
-            
+
         } confirm:^{
         }];
         [self presentViewController:vc animated:YES completion:nil];

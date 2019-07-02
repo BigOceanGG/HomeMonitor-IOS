@@ -13,13 +13,18 @@
         <!--Item-->
         <scene sceneID="2pr-4I-oMj">
             <objects>
-                <navigationController id="Dgv-5T-wf4" sceneMemberID="viewController">
+                <navigationController id="Dgv-5T-wf4" customClass="CellNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" image="setting" id="WJa-RD-ZaZ"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cb3-GS-3vd">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="colorStyle">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="gfI-OD-4dh" kind="relationship" relationship="rootViewController" id="QxS-cn-zF7"/>
                     </connections>

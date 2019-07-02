@@ -7,8 +7,13 @@
 //
 
 #import "SettingViewController.h"
+#import "NaviView.h"
+#import "WindowManager.h"
+#import "CellStoryboard.h"
 
 @interface SettingViewController ()
+
+@property (nonatomic, strong) NaviView *naviView;
 
 @end
 
@@ -17,6 +22,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.naviView = [[NaviView alloc] initWithType :NSLocalizedString(@"cell.title", nil) back:^{
+        [WindowManager changeToRootViewController:CellStoryboard.Generate.instantiateInitialViewController];
+    }];
+    self.navigationItem.titleView = self.naviView ;
 }
 
 /*

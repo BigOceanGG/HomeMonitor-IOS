@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD397D4322CB2BC100A6AD52 /* CellNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD397D4222CB2BC100A6AD52 /* CellNavigationController.m */; };
+		DD397D4722CB2D9400A6AD52 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = DD397D4522CB2D9400A6AD52 /* UIImage+Color.m */; };
+		DD397D4A22CB387A00A6AD52 /* NaviView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD397D4922CB387A00A6AD52 /* NaviView.xib */; };
+		DD397D5022CB3B7000A6AD52 /* NaviView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD397D4F22CB3B7000A6AD52 /* NaviView.m */; };
+		DD397D5422CB505600A6AD52 /* WindowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD397D5322CB505600A6AD52 /* WindowManager.m */; };
 		DD5E22E622CAE4F6005096A3 /* CellAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E22E522CAE4F6005096A3 /* CellAlertViewController.m */; };
 		DD5E22EA22CAE703005096A3 /* CellAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD5E22E922CAE703005096A3 /* CellAlertViewController.xib */; };
 		DD5E230622CAF2AE005096A3 /* AccountTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E230222CAF2AE005096A3 /* AccountTableViewCell.m */; };
@@ -40,6 +45,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD397D4122CB2BC100A6AD52 /* CellNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellNavigationController.h; sourceTree = "<group>"; };
+		DD397D4222CB2BC100A6AD52 /* CellNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellNavigationController.m; sourceTree = "<group>"; };
+		DD397D4522CB2D9400A6AD52 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		DD397D4622CB2D9400A6AD52 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		DD397D4922CB387A00A6AD52 /* NaviView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NaviView.xib; sourceTree = "<group>"; };
+		DD397D4E22CB3B7000A6AD52 /* NaviView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NaviView.h; sourceTree = "<group>"; };
+		DD397D4F22CB3B7000A6AD52 /* NaviView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NaviView.m; sourceTree = "<group>"; };
+		DD397D5222CB505600A6AD52 /* WindowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowManager.h; sourceTree = "<group>"; };
+		DD397D5322CB505600A6AD52 /* WindowManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowManager.m; sourceTree = "<group>"; };
 		DD5E22E422CAE4F5005096A3 /* CellAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellAlertViewController.h; sourceTree = "<group>"; };
 		DD5E22E522CAE4F6005096A3 /* CellAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellAlertViewController.m; sourceTree = "<group>"; };
 		DD5E22E922CAE703005096A3 /* CellAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellAlertViewController.xib; sourceTree = "<group>"; };
@@ -103,6 +117,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD397D4422CB2D5400A6AD52 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				DD397D4622CB2D9400A6AD52 /* UIImage+Color.h */,
+				DD397D4522CB2D9400A6AD52 /* UIImage+Color.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		DD397D4822CB382400A6AD52 /* Navi */ = {
+			isa = PBXGroup;
+			children = (
+				DD397D4922CB387A00A6AD52 /* NaviView.xib */,
+				DD397D4E22CB3B7000A6AD52 /* NaviView.h */,
+				DD397D4F22CB3B7000A6AD52 /* NaviView.m */,
+			);
+			path = Navi;
+			sourceTree = "<group>";
+		};
+		DD397D5122CB505600A6AD52 /* WindowManager */ = {
+			isa = PBXGroup;
+			children = (
+				DD397D5222CB505600A6AD52 /* WindowManager.h */,
+				DD397D5322CB505600A6AD52 /* WindowManager.m */,
+			);
+			path = WindowManager;
+			sourceTree = "<group>";
+		};
 		DD5E230022CAF2AE005096A3 /* Account */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +240,7 @@
 		DDC1EA1022C349E9002F1D6B /* HomeMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				DD397D4822CB382400A6AD52 /* Navi */,
 				DD5E232822CAF360005096A3 /* Setting */,
 				DD5E232122CAF349005096A3 /* Main */,
 				DD5E231B22CAF334005096A3 /* Login */,
@@ -247,6 +290,8 @@
 		DDC1EA3C22C35616002F1D6B /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				DD397D5122CB505600A6AD52 /* WindowManager */,
+				DDCA1E6322CB2ADE00C76AC1 /* Navigation */,
 				DDC1EA8422C9B06B002F1D6B /* Alert */,
 				DDC1EA5622C45A7C002F1D6B /* Text */,
 				DDC1EA4122C35789002F1D6B /* Color */,
@@ -276,6 +321,7 @@
 		DDC1EA4522C358B0002F1D6B /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				DD397D4422CB2D5400A6AD52 /* UIImage */,
 				DDC1EA4622C358BA002F1D6B /* UIColor */,
 			);
 			path = Extension;
@@ -315,6 +361,15 @@
 				DD5E22E522CAE4F6005096A3 /* CellAlertViewController.m */,
 			);
 			path = Alert;
+			sourceTree = "<group>";
+		};
+		DDCA1E6322CB2ADE00C76AC1 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				DD397D4122CB2BC100A6AD52 /* CellNavigationController.h */,
+				DD397D4222CB2BC100A6AD52 /* CellNavigationController.m */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,6 +439,7 @@
 				DDC1EA4C22C379AC002F1D6B /* InfoPlist.strings in Resources */,
 				DDC1EA2D22C34B6A002F1D6B /* Localizable.strings in Resources */,
 				DDC1EA1E22C349E9002F1D6B /* Assets.xcassets in Resources */,
+				DD397D4A22CB387A00A6AD52 /* NaviView.xib in Resources */,
 				DD5E22EA22CAE703005096A3 /* CellAlertViewController.xib in Resources */,
 				DD5E232022CAF334005096A3 /* Login.storyboard in Resources */,
 				DD5E232F22CAF360005096A3 /* Setting.storyboard in Resources */,
@@ -399,6 +455,8 @@
 			files = (
 				DDC1EA1C22C349E9002F1D6B /* HomeMonitor.xcdatamodeld in Sources */,
 				DDC1EA2422C349E9002F1D6B /* main.m in Sources */,
+				DD397D5022CB3B7000A6AD52 /* NaviView.m in Sources */,
+				DD397D4322CB2BC100A6AD52 /* CellNavigationController.m in Sources */,
 				DDC1EA1322C349E9002F1D6B /* AppDelegate.m in Sources */,
 				DD5E231122CAF2E3005096A3 /* SceneHeadView.m in Sources */,
 				DD5E230822CAF2AE005096A3 /* AccountTableViewController.m in Sources */,
@@ -406,6 +464,7 @@
 				DDC1EA4922C358E8002F1D6B /* UIColor+Hex.m in Sources */,
 				DD5E232622CAF349005096A3 /* MainTabBarController.m in Sources */,
 				DDC1EA3422C350E3002F1D6B /* CellStoryboard.m in Sources */,
+				DD397D5422CB505600A6AD52 /* WindowManager.m in Sources */,
 				DD5E231F22CAF334005096A3 /* LoginViewController.m in Sources */,
 				DDC1EA4422C357CC002F1D6B /* CellColor.m in Sources */,
 				DDC1EA4022C3568A002F1D6B /* CellButton.m in Sources */,
@@ -413,6 +472,7 @@
 				DD5E230622CAF2AE005096A3 /* AccountTableViewCell.m in Sources */,
 				DD5E231A22CAF30E005096A3 /* GenerateViewController.m in Sources */,
 				DD5E231322CAF2E3005096A3 /* ScenePageViewController.m in Sources */,
+				DD397D4722CB2D9400A6AD52 /* UIImage+Color.m in Sources */,
 				DD5E232E22CAF360005096A3 /* BackViewController.m in Sources */,
 				DD5E22E622CAE4F6005096A3 /* CellAlertViewController.m in Sources */,
 			);
