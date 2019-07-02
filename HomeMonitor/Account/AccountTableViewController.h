@@ -15,7 +15,7 @@ typedef NS_ENUM(NSInteger, AccountType) {
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface accountTableViewController : UITableViewController
+@interface AccountTableViewController : UITableViewController
 
 - (instancetype)initWithAccountType:(AccountType)walletType;
 

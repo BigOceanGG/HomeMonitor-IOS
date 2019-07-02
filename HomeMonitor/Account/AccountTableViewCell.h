@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 static NSString *const AccountTableViewCellIdentifier = @"ArrowTableViewCell";
 
-@interface accountTableViewCell : UITableViewCell
+@interface AccountTableViewCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UIView *colorView;
 

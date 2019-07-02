@@ -6,11 +6,11 @@
 //  Copyright © 2019 zhj. All rights reserved.
 //
 
-#import "accountTableViewController.h"
+#import "AccountTableViewController.h"
 #import "CellColor.h"
-#import "accountTableViewCell.h"
+#import "AccountTableViewCell.h"
 
-@interface accountTableViewController ()
+@interface AccountTableViewController ()
 
 @property (nonatomic, copy) NSArray<UIColor *> *contentSummerData;
 
@@ -20,7 +20,7 @@
 
 @end
 
-@implementation accountTableViewController
+@implementation AccountTableViewController
 
 - (instancetype)initWithAccountType:(AccountType)accountType {
     if (self = [super init]) {
@@ -82,10 +82,10 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:AccountTableViewCellIdentifier forIndexPath:indexPath];
     
     if(cell && self.accountType == AccountTypeSummer) {
-        [(accountTableViewCell *)cell setupCellItem:self.contentSummerData[indexPath.section]];
+        [(AccountTableViewCell *)cell setupCellItem:self.contentSummerData[indexPath.section]];
         return cell;
     } else if(cell && self.accountType == AccountTypeWinter) {
-        [(accountTableViewCell *)cell setupCellItem:self.contentWinterData[indexPath.section]];
+        [(AccountTableViewCell *)cell setupCellItem:self.contentWinterData[indexPath.section]];
         return cell;
     }
     

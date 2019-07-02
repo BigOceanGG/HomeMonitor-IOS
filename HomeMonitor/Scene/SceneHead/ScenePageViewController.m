@@ -55,8 +55,8 @@
     self.delegate = self;
     
     self.navigationItem.titleView = self.headView;
-    self.childVCArray = @[[[accountTableViewController alloc]initWithAccountType : AccountTypeSummer],
-                          [[accountTableViewController alloc]initWithAccountType : AccountTypeWinter]];
+    self.childVCArray = @[[[AccountTableViewController alloc]initWithAccountType : AccountTypeSummer],
+                          [[AccountTableViewController alloc]initWithAccountType : AccountTypeWinter]];
     [self setViewControllers:@[self.childVCArray.firstObject] direction:UIPageViewControllerNavigationDirectionReverse animated:YES completion:nil];
 
 }

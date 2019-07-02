@@ -107,10 +107,10 @@
 			isa = PBXGroup;
 			children = (
 				DD5E230122CAF2AE005096A3 /* AccountTableViewController.h */,
-				DD5E230222CAF2AE005096A3 /* AccountTableViewCell.m */,
-				DD5E230322CAF2AE005096A3 /* AccountTableViewCell.xib */,
-				DD5E230422CAF2AE005096A3 /* AccountTableViewCell.h */,
 				DD5E230522CAF2AE005096A3 /* AccountTableViewController.m */,
+				DD5E230222CAF2AE005096A3 /* AccountTableViewCell.m */,
+				DD5E230422CAF2AE005096A3 /* AccountTableViewCell.h */,
+				DD5E230322CAF2AE005096A3 /* AccountTableViewCell.xib */,
 			);
 			path = Account;
 			sourceTree = "<group>";

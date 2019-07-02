@@ -6,10 +6,10 @@
 //  Copyright © 2019 zhj. All rights reserved.
 //
 
-#import "accountTableViewCell.h"
+#import "AccountTableViewCell.h"
 #import "CellColor.h"
 
-@implementation accountTableViewCell
+@implementation AccountTableViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
