@@ -77,23 +77,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVP-eu-n7c" userLabel="back">
-                                <rect key="frame" x="0.0" y="44" width="47" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVP-eu-n7c" userLabel="Left">
+                                <rect key="frame" x="0.0" y="44" width="44" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="ZOm-bZ-trn"/>
+                                    <constraint firstAttribute="width" constant="44" id="v9b-0j-Jho"/>
                                 </constraints>
-                                <state key="normal" title="测试" image="back">
+                                <state key="normal" image="back">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
                                     <action selector="backClick:" destination="VzG-yu-slX" eventType="touchUpInside" id="Oyn-lC-vUA"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="测试" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NLx-og-7pi" userLabel="Title">
+                                <rect key="frame" x="100" y="44" width="35" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="cwC-Bt-cvR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="VVP-eu-n7c" firstAttribute="leading" secondItem="cbR-y6-yAV" secondAttribute="leading" id="LuI-En-9vR"/>
                             <constraint firstItem="VVP-eu-n7c" firstAttribute="top" secondItem="cbR-y6-yAV" secondAttribute="top" id="Q3p-8b-lJA"/>
+                            <constraint firstItem="NLx-og-7pi" firstAttribute="leading" secondItem="VVP-eu-n7c" secondAttribute="trailing" id="ZUi-LR-wEF"/>
+                            <constraint firstItem="NLx-og-7pi" firstAttribute="top" secondItem="cbR-y6-yAV" secondAttribute="top" id="vbn-db-QbP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cbR-y6-yAV"/>
                     </view>

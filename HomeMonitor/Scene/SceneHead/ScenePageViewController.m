@@ -39,7 +39,6 @@
 */
 
 - (void)initView {
-    self.navigationItem.titleView = self.headView;
     self.dataSource = self;
     self.delegate = self;
     __weak typeof(self) weakSelf = self;
@@ -54,7 +53,8 @@
                               }];
         }
     }];
-    
+    self.navigationItem.titleView = self.headView;
+
     self.childVCArray = @[[[AccountTableViewController alloc]initWithAccountType : AccountTypeSummer],
                           [[AccountTableViewController alloc]initWithAccountType : AccountTypeWinter]];
     [self setViewControllers:@[self.childVCArray.firstObject] direction:UIPageViewControllerNavigationDirectionReverse animated:YES completion:nil];
